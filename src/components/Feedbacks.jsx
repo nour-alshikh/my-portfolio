@@ -1,11 +1,11 @@
-import { motion } from "framer-motion"
+import Reveal from "./Reveal"
 import { styles } from '../styles'
 import { SectionWrapper } from '../hoc'
 import { testimonials } from '../constants'
 import { fadeIn, textVariant } from "../utils/motion"
 
 const FeedbackCard = ({ index, testimonial, name, designation, company, image }) => (
-  <motion.div variants={fadeIn("", 'spring', index * 0.5, 0.75)}
+  <Reveal vars={fadeIn("", 'spring', index * 0.5, 0.75)}
     className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
   >
     <p className="text-white font-black text-[48px]">&quot;</p>
@@ -19,7 +19,7 @@ const FeedbackCard = ({ index, testimonial, name, designation, company, image })
         <img src={image} alt={name} className="w-10 h-10 rounded-full object-cover" />
       </div>
     </div>
-  </motion.div>
+  </Reveal>
 )
 
 const Feedbacks = () => {
@@ -27,14 +27,14 @@ const Feedbacks = () => {
     <>
       <div className="mt-12 bg-black-100 rounded-[20px]">
         <div className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}>
-          <motion.div variants={textVariant()}>
+          <Reveal vars={textVariant()}>
             <p className={styles.sectionSubText}>
               what others say
             </p>
             <h2 className={styles.sectionHeadText}>
               Testimonials.
             </h2>
-          </motion.div>
+          </Reveal>
         </div>
         <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
 

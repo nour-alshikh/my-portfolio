@@ -1,5 +1,5 @@
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component"
-import { color, motion } from "framer-motion"
+import Reveal from "./Reveal"
 import 'react-vertical-timeline-component/style.min.css'
 import { styles } from '../styles'
 import { experiences } from '../constants'
@@ -45,14 +45,14 @@ const ExperienceCard = ({ exp }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <Reveal vars={textVariant()}>
         <p className={styles.sectionSubText}>
           What I have Done So far
         </p>
         <h2 className={styles.sectionHeadText}>
           Work Experience.
         </h2>
-      </motion.div>
+      </Reveal>
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
           {experiences.map((exp, i) => (
