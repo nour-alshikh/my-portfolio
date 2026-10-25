@@ -1,5 +1,5 @@
 import { BrowserRouter } from 'react-router-dom'
-import { Navbar, Hero, About, Tech, Works, Feedbacks, Contact, StarsCanvas, Experience } from './components'
+import { Navbar, Hero, About, Tech, Works, Feedbacks, Contact, StarsCanvas } from './components'
 
 const App = () => {
   return (
@@ -10,7 +10,7 @@ const App = () => {
           <Hero />
         </div>
         <About />
-        <Experience />
+        {/* Experience timeline hidden for now */}
         <Tech />
         <Works />
         <Feedbacks />
