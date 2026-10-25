@@ -193,67 +193,129 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "School System",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: carrent,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Job IT",
-        description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "Multi-school SaaS for managing students, teachers, classrooms, attendance, exams and fees. A central dashboard lets admins run every school, with plan limits, role-based access, two-factor login and Arabic/English support.",
         tags: [
             {
                 name: "nextjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "laravel",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "typescript",
                 color: "pink-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: carrent,
+        source_code_link: "https://github.com/nour-alshikh/school-system",
+    },
+    {
+        name: "Qarar Academy",
+        description:
+            "Online learning platform with courses split into chapters, watch-progress tracking, enrollment, a cart and Paymob payments. The whole public site is editable from an admin CMS, with push notifications and Arabic/English (RTL) support.",
+        tags: [
+            {
+                name: "laravel",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "vue",
+                color: "green-text-gradient",
+            },
+            {
+                name: "inertia",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: jobit,
+        source_code_link: "",
+    },
+    {
+        name: "Mega Steel",
+        description:
+            "Corporate website and CMS for a steel company. Every page section, from services and sectors to materials and projects, is managed from the dashboard, plus quote requests, SEO settings with a sitemap, and Arabic/English (RTL).",
+        tags: [
+            {
+                name: "laravel",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "vue",
+                color: "green-text-gradient",
+            },
+            {
+                name: "inertia",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "orange-text-gradient",
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        source_code_link: "",
+    },
+    {
+        name: "Reeras",
+        description:
+            "Website and client portal for a software and hosting agency: CMS-driven service pages, a support ticket system with replies, attachments and status history, reservations, project requests and an external API.",
+        tags: [
+            {
+                name: "laravel",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "vue",
+                color: "green-text-gradient",
+            },
+            {
+                name: "alpinejs",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: carrent,
+        source_code_link: "",
+    },
+    {
+        name: "Lampatronics Store",
+        description:
+            "Frontend for a lighting and electronics store on a multi-vendor e-commerce platform. Built the product cards, product sliders, mobile search, filters, discount banners and reviews, plus bulk actions in the admin products table.",
+        tags: [
+            {
+                name: "vue",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "vuex",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "frontend",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: jobit,
+        source_code_link: "",
     },
 ];
 
